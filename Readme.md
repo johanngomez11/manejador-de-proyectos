@@ -17,11 +17,11 @@
 * 1) Estructura del proyecto (10 puntos).
 
 * 2) Diagrama de clases que cubra todos los requerimientos solicitados (20 puntos).
-
+![Diagrama de clases](Imagenes/Diagrama de clases.png)
 * 3) Todas las rutas necesarias para que el proyecto funcione con base al modelo REST (20 puntos).
 
 * 4) Wireframes del flujo del proyecto (20 puntos).
-
+https://www.canva.com/design/DAGRn-gkV5o/Q4O92K0h6R-BvSCc4UhFwg/edit?utm_content=DAGRn-gkV5o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 * 5) Diagrama de interacción que explique el flujo según los requerimientos. (20 puntos).
 
 * 6) Imagen de Docker funcional en docker hub (10 puntos).
