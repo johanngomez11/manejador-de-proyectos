@@ -31,3 +31,14 @@ https://www.canva.com/design/DAGRn-gkV5o/Q4O92K0h6R-BvSCc4UhFwg/edit?utm_content
 Este diagrama de interacción muestra el flujo de trabajo en un sistema basado en SCRUM. Un usuario inicia sesión y autentica su acceso mediante una red social. Luego, se crea un proyecto donde se asignan miembros y habilidades, se agregan historias al product backlog y se crean tarjetas para las tareas. El SCRUM board se actualiza a medida que las tarjetas avanzan, y se genera un gráfico burndown que refleja el progreso. Al final, se cierra el proyecto y se genera un informe final con los resultados del tablero.
 
 * 6) Imagen de Docker funcional en docker hub (10 puntos).
+Para usar la imagen en su entorno local seguir estos pasos:
+
+Imagen en Dockerhub: https://hub.docker.com/r/johanngomez11/manejador-de-proyectos
+
+- docker pull johanngomez11/manejador-de-proyectos:latest
+- docker run -d -p 80:80 johanngomez11/manejador-de-proyectos
+
+Para detener el contenedor usar:
+- docker ps
+Copiar el container id
+- docker stop 'container id'
