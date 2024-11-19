@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/retrospectives');
+const controller = require('../controllers/permissions');
 
-/* POST create retrospective. */
+/* POST create permission. */
 router.post('/', controller.create);
 
-/* GET retrospectives listing. */
+/* GET permissions listing. */
 router.get('/', controller.list);
 
-/* GET retrospective by id. */
+/* GET permission by id. */
 router.get('/:id', controller.index);
 
-/* PUT update retrospective by id. */
+/* PUT update permission by id. */
 router.put('/:id', controller.update);
 
-/* DELETE retrospective by id. */
+/* DELETE permission by id. */
 router.delete('/:id', controller.destroy);
 
 module.exports = router;

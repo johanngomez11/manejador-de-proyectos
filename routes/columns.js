@@ -1,20 +1,20 @@
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/burndowncharts');
+const controller = require('../controllers/columns');
 
-/* POST create burndown chart. */
+/* POST create column. */
 router.post('/', controller.create);
 
-/* GET burndown charts listing. */
+/* GET columns listing. */
 router.get('/', controller.list);
 
-/* GET burndown chart by id. */
+/* GET column by id. */
 router.get('/:id', controller.index);
 
-/* PUT update burndown chart by id. */
+/* PUT update column by id. */
 router.put('/:id', controller.update);
 
-/* DELETE burndown chart by id. */
+/* DELETE column by id. */
 router.delete('/:id', controller.destroy);
 
 module.exports = router;

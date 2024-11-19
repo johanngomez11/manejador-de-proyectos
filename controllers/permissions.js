@@ -1,23 +1,23 @@
 const express = require('express');
 
 function create(req, res, next) {
-    res.send(`POST => /projects/ => ${req.body.name}`);
+    res.send(`POST => /permissions/ => ${req.body.name}`);
 }
 
 function list(req, res, next) {
-    res.send('GET => /projects/');
+    res.send('GET => /permissions/');
 }
 
 function index(req, res, next) {
-    res.send(`GET => /projects/${req.params.id}`);
+    res.send(`GET => /permissions/${req.params.id}`);
 }
 
 function update(req, res, next) {
-    res.send('PUT => /projects/:id');
+    res.send('PUT => /permissions/:id');
 }
 
 function destroy(req, res, next) {
-    res.send('DELETE => /projects/:id');
+    res.send('DELETE => /permissions/:id');
 }
 
 module.exports = {create, list, index, update, destroy};
