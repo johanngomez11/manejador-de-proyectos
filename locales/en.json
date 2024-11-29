@@ -1,0 +1,5 @@
+{
+	"login.fail": "Username or password are wrong.",
+	"login.ok": "Login success.",
+	"login.error": "login.error"
+}

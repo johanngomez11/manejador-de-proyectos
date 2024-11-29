@@ -1,0 +1,9 @@
+{
+    "secret":{
+        "key":"50afdb2b6f3a7faca28c57a036868247"
+    },
+    "mongodb": {
+      "uri": "mongodb+srv://proyecto:abcd1234@manejador-de-proyectos.dl6fs.mongodb.net/manejador-de-proyectos?retryWrites=true&w=majority"
+    }
+}
+  
